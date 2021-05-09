@@ -1,0 +1,118 @@
+
+
+int redled = D7;
+
+
+void setup() 
+{
+    pinMode(redled, OUTPUT);
+    
+    //Below is my code for writing my name. I have provided the comments on what lines are performing what letters.
+    //I have chosen to put my code in setup() so that it only runs once and doesn't confuse anyone when it loops again in the loop
+    //If i put this code in void loop() the code will run non-stop and then it will make it seem like i have written more letters than i have intended on.
+    // J == .---
+    digitalWrite(redled, HIGH); //J
+    delay(500);
+    digitalWrite(redled, LOW);
+    delay(500);
+    
+    digitalWrite(redled, HIGH); //J
+    delay(2000);
+    digitalWrite(redaled, LOW);
+    delay(500);
+    
+    digitalWrite(redled, HIGH); //J
+    delay(2000);
+    digitalWrite(redled, LOW);
+    delay(500);
+    
+    digitalWrite(redled, HIGH); //J
+    delay(2000);
+    digitalWrite(redled, LOW);
+    delay(500);
+    
+    // O == ---
+    digitalWrite(redled, HIGH); //O
+    delay(2000);
+    digitalWrite(redled, LOW);
+    delay(500);
+    
+    digitalWrite(redled, HIGH); //O
+    delay(2000);
+    digitalWrite(redled, LOW);
+    delay(500);
+    
+    digitalWrite(redled, HIGH); //O
+    delay(2000);
+    digitalWrite(redled, LOW);
+    delay(500);
+    
+    // S == ...
+    digitalWrite(redled, HIGH); //S
+    delay(500);
+    digitalWrite(redled, LOW);
+    delay(500);
+    
+    digitalWrite(redled, HIGH); //S
+    delay(500);
+    digitalWrite(redled, LOW);
+    delay(500);
+    
+    digitalWrite(redled, HIGH); //S
+    delay(500);
+    digitalWrite(redled, LOW);
+    delay(500);
+    
+    // E == .
+    digitalWrite(redled, HIGH); //E
+    delay(500);
+    digitalWrite(redled, LOW);
+    delay(500);
+    
+    // P = .--.
+    digitalWrite(redled, HIGH); //P
+    delay(500);
+    digitalWrite(redled, LOW);
+    delay(500);
+    
+    digitalWrite(redled, HIGH); //P
+    delay(2000);
+    digitalWrite(redled, LOW);
+    delay(500);
+    
+    digitalWrite(redled, HIGH); //P
+    delay(2000);
+    digitalWrite(redled, LOW);
+    delay(500);
+    
+    digitalWrite(redled, HIGH); //P
+    delay(500);
+    digitalWrite(redled, LOW);
+    delay(500);
+    
+    // H = ....
+    digitalWrite(redled, HIGH); //H
+    delay(500);
+    digitalWrite(redled, LOW);
+    delay(500);
+    
+    digitalWrite(redled, HIGH); //H
+    delay(500);
+    digitalWrite(redled, LOW);
+    delay(500);
+    
+    digitalWrite(redled, HIGH); //H
+    delay(500);
+    digitalWrite(redled, LOW);
+    delay(500);
+    
+    digitalWrite(redled, HIGH); //H
+    delay(500);
+    digitalWrite(redled, LOW);
+    delay(500);
+
+}
+
+void loop() 
+{
+}
